@@ -1,0 +1,33 @@
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form input {
+  width: 60%;
+  margin-right: 10px;
+}
+
+.items {
+  margin-top: 20px;
+}
+
+.item {
+  max-width: 20vw;
+  height: auto;
+  background: #eeeeee;
+  margin: 10px 0;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 95%;
+  padding-top: 3px;
+  position: relative;
+}
+
+.item * {
+  position: static;
+
+}
